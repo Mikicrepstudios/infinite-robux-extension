@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Free robux",
+  "description": "This extension gives you 100% free trillion robux",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "robux.png"
+  },
+    "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": [
+        "https://www.roblox.com/*",
+	"https://web.roblox.com/*"
+      ]
+    }
+  ]
+}
+
